@@ -1,31 +1,31 @@
 /**
  *##############################################################################
  *
- *	[ ÏîÄ¿Ãû      ]  : ÑÅÔÃ¾Æµê¹ÜÀíÏµÍ³
- *  [ ¹«Ë¾Ãû      ]  : Çå»ªIT
- *	[ Ä£¿éÃû      ]  : ¹ØÓÚ´°¿Ú
- *	[ ÎÄ¼şÃû      ]  : About.java
- *	[ Ïà¹ØÎÄ¼ş    ]  : 
- *	[ ÎÄ¼şÊµÏÖ¹¦ÄÜ]  : ¹ØÓÚ´°¿Ú
- *	[ ×÷Õß        ]  : ¹Ë¿¡
- *	[ °æ±¾        ]  : 1.0
+ *	[ é¡¹ç›®å      ]  : é›…æ‚¦é…’åº—ç®¡ç†ç³»ç»Ÿ
+ *      [ å…¬å¸å      ]  : 
+ *	[ æ¨¡å—å      ]  : å…³äºçª—å£
+ *	[ æ–‡ä»¶å      ]  : About.java
+ *	[ ç›¸å…³æ–‡ä»¶    ]  : 
+ *	[ æ–‡ä»¶å®ç°åŠŸèƒ½]  : å…³äºçª—å£
+ *	[ ä½œè€…        ]  : robert
+ *	[ ç‰ˆæœ¬        ]  : 1.0
  *	----------------------------------------------------------------------------
- *	[ ±¸×¢        ]  : 
+ *	[ å¤‡æ³¨        ]  : 
  *	----------------------------------------------------------------------------
- *	[ ĞŞ¸Ä¼ÇÂ¼    ]  : 
+ *	[ ä¿®æ”¹è®°å½•    ]  : 
  *
- *	[ ÈÕ  ÆÚ ]     [°æ±¾]         [ĞŞ¸ÄÈË]         [ĞŞ¸ÄÄÚÈİ] 
- *	2006/04/11      1.0             ¹Ë¿¡            ´´½¨
+ *	[ æ—¥  æœŸ ]     [ç‰ˆæœ¬]         [ä¿®æ”¹äºº]         [ä¿®æ”¹å†…å®¹] 
+ *	2020/07/09      1.0           robert            åˆ›å»º
  *	##--------------------------------------------------------------------------
- *  			 °æÈ¨ËùÓĞ(c) 2006-2007,  SunshineSOFT Corporation
+ *  			 ç‰ˆæƒæ‰€æœ‰(c) 2020-2021
  *	--------------------------------------------------------------------------##
  *	
- *	[ º¯ÊıËµÃ÷    ]  :
+ *	[ å‡½æ•°è¯´æ˜    ]  :
  *
  *	[## public About (JFrame frame) {} ]:
- *		¹¦ÄÜ: ¹¹Ôìº¯Êı  ×é½¨¹ØÓÚ´°¿Ú
+ *		åŠŸèƒ½: æ„é€ å‡½æ•°  ç»„å»ºå…³äºçª—å£
  *
- *  [ ÒÅÁôÎÊÌâ    ]  : 
+ * 
  *
  *##############################################################################
  */
@@ -49,26 +49,26 @@ implements ActionListener {
 	
 	
 	/**=======================================================================**
-	 *		[## public About (JFrame frame) {} ]: 	¹¹Ôìº¯Êı
-	 *			²ÎÊı   £ºJFrame¶ÔÏóÊÇ¶Ô»°¿òµÄ¸¸´°¿Ú
-	 *			·µ»ØÖµ £ºÎŞ
-	 *			ĞŞÊÎ·û £ºpublic
-	 *			¹¦ÄÜ   £º×é½¨¹ØÓÚ´°¿Ú
+	 *		[## public About (JFrame frame) {} ]: 	æ„é€ å‡½æ•°
+	 *			å‚æ•°   ï¼šJFrameå¯¹è±¡æ˜¯å¯¹è¯æ¡†çš„çˆ¶çª—å£
+	 *			è¿”å›å€¼ ï¼šæ— 
+	 *			ä¿®é¥°ç¬¦ ï¼špublic
+	 *			åŠŸèƒ½   ï¼šç»„å»ºå…³äºçª—å£
 	 **=======================================================================**
 	 */
 	public About (JFrame frame) {
-		super (frame, "¹ØÓÚÎÒÃÇ", true);
+		super (frame, "å…³äºæˆ‘ä»¬", true);
 		
 		top = new JLabel (new ImageIcon("pic/about.gif"));
 		li	= new JLabel (new ImageIcon("pic/line1.gif"));
-		fee = new JLabel ("<html>¼¼ÊõÖ§³Ö: http://programmer.ischoolbar.com/<br>°æÈ¨ËùÓĞ  (C) 2020   Robert_X </html>");
-		tit = new JLabel ("        »¶ Ó­ Ê¹ ÓÃ ÑÅÔÃ¾Æ µê ¹Ü Àí Ïµ Í³");
-		ver = new JLabel ("°æ±¾:  2020 Bate        ");
-		user= new JLabel ("Èí¼şÓÃ»§:  " + sunini.getIniKey("UserName"));
-		co	= new JLabel ("                         ËùÊôÍÅ¶Ó:Robert_X");
-		boss= new JLabel ("       Robert_XÓÚ2020Äê5ÔÂ3ÈÕĞŞ¶©     ");
+		fee = new JLabel ("<html>æŠ€æœ¯æ”¯æŒ: http://programmer.ischoolbar.com/<br>ç‰ˆæƒæ‰€æœ‰  (C) 2020   Robert_X </html>");
+		tit = new JLabel ("        æ¬¢ è¿ ä½¿ ç”¨ é›… æ‚¦ é…’ åº— ç®¡ ç† ç³» ç»Ÿ");
+		ver = new JLabel ("ç‰ˆæœ¬:  2020 Bate        ");
+		user= new JLabel ("è½¯ä»¶ç”¨æˆ·:  " + sunini.getIniKey("UserName"));
+		co	= new JLabel ("                        æ‰€ å± å›¢ é˜Ÿ:Robert_X");
+		boss= new JLabel ("       Robert_Xäº2020å¹´7æ—¥ä¿®è®¢     ");
 		temp= new JLabel ("       ");
-		bt1 = new TJButton ("pic/choose.gif", "È·  ¶¨", "");
+		bt1 = new TJButton ("pic/choose.gif", "ç¡®  å®š", "");
 		
 		pm	= new JPanel (new BorderLayout ());
 		info = new JPanel (new GridLayout (4, 1, 0, 0));
@@ -77,7 +77,7 @@ implements ActionListener {
 		i2	 = new JPanel (new FlowLayout (FlowLayout.RIGHT));
 		bp	 = new JPanel (new FlowLayout (FlowLayout.RIGHT, 10 ,8));
 		
-		//ÖÆ×÷ĞÅÏ¢Ãæ°å
+		//åˆ¶ä½œä¿¡æ¯é¢æ¿
 		i1.add (user);
 		i1.add (co);
 		i2.add (ver);
@@ -86,14 +86,14 @@ implements ActionListener {
 		info.add (i1);
 		info.add (boss);
 		
-		//ÖÆ×÷ÏÂ±ß×é¼ş
+		//åˆ¶ä½œä¸‹è¾¹ç»„ä»¶
 		bp.add (bt1);
 		bott.add ("North", li);
 		bott.add ("West", temp);
 		bott.add ("East", bp);
 		bott.add ("Center", fee);
 		
-		//ÖÆ×÷Ö÷Ãæ°å
+		//åˆ¶ä½œä¸»é¢æ¿
 		pm.add ("North", top);
 		pm.add ("South", bott);
 		pm.add ("Center", info);
@@ -107,7 +107,7 @@ implements ActionListener {
 	}
 	
 	/**=======================================================================**
-	 *			ActionListener ¼àÌı
+	 *			ActionListener ç›‘å¬
 	 **=======================================================================**
 	 */
 	public void actionPerformed (ActionEvent ae) {
